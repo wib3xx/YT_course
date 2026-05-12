@@ -110,20 +110,37 @@
     //     }
     // }
 
+    // class hello{
+    //     public static void main (String [] args){
+    //         int a = 5;
+    //         int b = 6;
+
+    //           // boolean result = a > b;
+    //         //  boolean result = a != b;
+    //          // boolean result = a == b;
+
+    //         //  double x = 8.8;
+    //         //  double y = 1.2;
+
+    //          boolean result = a > b;
+
+    //             System.out.println(result);
+    //     }
+    // }
+
     class hello{
-        public static void main (String [] args){
+        public static void main( String [] args){
+
             int a = 5;
-            int b = 6;
+            int b = 5;
+            //int result = a + b;
+            boolean result1 = a > b | a < b;;
+            // boolean result2 = a < b;
+            // boolean result3 = a == b;
 
-              // boolean result = a > b;
-            //  boolean result = a != b;
-             // boolean result = a == b;
-
-            //  double x = 8.8;
-            //  double y = 1.2;
-
-             boolean result = a > b;
-
-                System.out.println(result);
+             System.out.println(!result1);
+            //  System.out.println(result2);
+            //  System.out.println(result3);
         }
     }
+
